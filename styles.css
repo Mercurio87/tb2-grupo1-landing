@@ -1,0 +1,418 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4A460;
+}
+
+#inicio {
+    background-color: #f7f2f2
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    color: #423B3B; 
+    text-align: left; 
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to bottom right, #F4A460 40%, #f7f2f2 40%);
+    color: black;
+    padding: 20px;
+    text-align: left;
+    margin-left: 0px;
+    height: 100vh; 
+}
+
+.hero-text h1 {
+    font-size: 4em; 
+    margin-top: 50px;
+}
+
+.hero-text p {
+    font-size: 1.5em; 
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+
+.hero img {
+    width: 300px; 
+    margin-top: 65px; 
+}
+
+.hero .image-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-top: 0%;
+    
+}
+.plans {
+    padding: 50px 20px;
+    background-color: #F4A460;
+    text-align: center;
+}
+
+.plans h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.plan-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.plan-card h3 {
+    margin: 10px 0; 
+    font-size: 1.3em; 
+}
+
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan-card ul li {
+    margin: 8px 0; 
+    font-size: 0.9em; 
+}
+
+.plan-card .price {
+    font-size: 1.2em; 
+    margin: 15px 0; 
+}
+
+.plan-card button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.plan-card button:hover {
+    background-color: #555;
+}
+
+
+.app-info {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.app-description {
+    background-color: #3CE49E;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.app-info-text {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.app-download {
+    background-color: #555;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.app-movil{
+    position: absolute; 
+    margin-top: -600px; 
+    left: 1400px; 
+    transform: rotate(30deg);
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+}
+
+.app-screenshot {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code img {
+    margin-top: 20px;
+    max-width: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-movil2{
+    position: absolute; 
+    margin-top: -600px; 
+    margin-left: 900px; 
+    transform: rotate(-20deg);
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+}
+
+
+.about-us {
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+
+.about-us h2 {
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+.nosotros-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nosotros-content > div {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 25px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    background-color: #3CE49E;
+    text-align: center;
+}
+
+
+.nosotros-content img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+
+
+.about-us img {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.services {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-content p {
+    background-color: #D9D9D9;
+    border: 1px solid #ddd;
+}
+
+.services-content img {
+    max-width: 300px;
+}
+
+.services-content img, .services-content p {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.app-movil3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-movil3 .app-imagenmovil3 {
+     
+    margin-bottom: 100px;
+    margin-top: 50px;
+    left: 200px;
+    transform: rotate(30deg);
+    overflow: hidden;
+    width: 250px;
+    height: 500px;
+}
+
+.contact {
+    background-color: #f7f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form label {
+    margin: 5px 0;
+}
+
+.contact form input, .contact form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.contact form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .hero-text h1 {
+        font-size: 3em;
+    }
+
+    .hero-text p {
+        font-size: 1.2em;
+        max-width: 100%;
+    }
+
+    .plans {
+        padding: 20px;
+    }
+
+    .plan-card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .app-info-text, .app-download, .app-description {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .app-movil {
+        position: static;
+        transform: none;
+        margin: 20px 0;
+    }
+
+    .app-movil2 {
+        position: static;
+        transform: none;
+        margin: 20px 0;
+    }
+
+    .about-us p {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .nosotros-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nosotros-content > div {
+        max-width: 100%;
+    }
+
+    .services-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-movil3 {
+        justify-content: center;
+    }
+
+    .app-imagenmovil3 {
+        width: 200px;
+        height: 400px;
+        margin: 20px 0;
+    }
+}
+
